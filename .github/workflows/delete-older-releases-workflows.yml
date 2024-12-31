@@ -31,7 +31,7 @@ on:
       releases_keep_latest:
         description: "How many latest releases to keep."
         required: false
-        default: "1"
+        default: "8"
         type: choice
         options:
           - 30
@@ -86,7 +86,7 @@ on:
         type: boolean
 
 env:
-  TZ: America/New_York
+  TZ: Asia/Shanghai
 
 jobs:
   build:
