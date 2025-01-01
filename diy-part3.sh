@@ -11,7 +11,10 @@
 
 
 
-# 参考各种修改写法：https://github.com/quanjindeng/Actions_OpenWrt-Amlogic/blob/main/diy-part2-istore.sh
+# 【参考各种修改写法】：
+# https://github.com/quanjindeng/Actions_OpenWrt-Amlogic/blob/main/diy-part2-istore.sh
+# https://github.com/breakings/OpenWrt/blob/main/diy-part2.sh
+
 
 # Uncomment a feed source
 sed -i 's/^#\(.*istore\)/\1/' feeds.conf.default
