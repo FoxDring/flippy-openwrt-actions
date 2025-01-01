@@ -107,6 +107,9 @@ on:
 env:
   TZ: Asia/Shanghai
 
+schedule:
+  - cron: '0 6 * * 6'
+
 jobs:
   build:
     runs-on: ubuntu-22.04
@@ -237,4 +240,4 @@ jobs:
             ### OpenWrt source code
             - [lede](https://github.com/coolsnowwolf/lede)
             ### OpenWrt Image Verification
-            - sha256sum
+            - sha256sum          
