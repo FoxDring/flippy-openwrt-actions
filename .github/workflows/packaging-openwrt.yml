@@ -4,6 +4,13 @@
 # Copyright (C) 2021 https://github.com/ophub/flippy-openwrt-actions
 #==========================================================================
 
+
+
+
+# 【参考同类Action配置】：
+# https://github.com/Lancenas/actions-openwrt-helloworld/blob/master/.github/workflows/build-openwrt.yml
+
+
 name: Packaging OpenWrt
 
 on:
