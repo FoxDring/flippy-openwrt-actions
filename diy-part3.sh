@@ -28,7 +28,7 @@ echo 'src-git istore https://github.com/linkease/istore;main' >> feeds.conf.defa
 ./scripts/feeds install -d y -p istore luci-app-store
 
 # Modify default theme（FROM luci-theme-bootstrap CHANGE TO luci-theme-argon-light-green）
-sed -i 's/luci-theme-bootstrap/luci-theme-argon-light-green/g' ./feeds/luci/collections/luci/Makefile
+sed -i 's/luci-theme-argon/luci-theme-argon-light-green/g' ./feeds/luci/collections/luci/Makefile
 
 
 
